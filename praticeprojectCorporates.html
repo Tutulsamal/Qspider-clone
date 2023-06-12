@@ -1,0 +1,526 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Qspider/Corporates</title>
+</head>
+<style>
+     section .home h1{
+        color: white;
+        margin-top: auto;
+        height: auto;
+
+      }
+      
+      
+         #img1 {
+    height: 80px;
+
+  }
+  #mid {
+    
+    margin: 5px auto;
+    width: 50%;
+    margin-left: 10%;
+  }
+  .navbar li {
+    display: inline-block;
+    
+  }
+  
+  .navbar li a {
+    background-color: aliceblue;
+    color: rgb(10, 10, 10);
+    text-decoration: none;
+    padding: 10px 10px;
+    font-size: 12px;
+    border: 2px solid black;
+    border-radius: 10px;
+  }
+  #nav {
+    display: flex;
+    /* align-items: center; */
+    height: 70px;
+  }
+  .rightiteam {
+    display: inline-block;
+    margin: 2px;
+    font-size: 18px;
+    border: 2px solid black;
+    border-radius: 7px;
+    background-color: gold;
+  }
+  .next{
+    display: flex;
+    margin-top: 20px;
+    background-color:rgb(39, 37, 37);
+    border: 2px solid black;
+    border-radius: 400px;
+    height: 50px;
+    background-image: url(./image/ppt4.jpg);
+
+  }
+  .iteam1{
+    margin: 20px;
+    display: block;
+    
+  }
+  ul li:hover{
+        background-color:rgb(171, 233, 15);
+    }
+    ul li ul li{
+        display: none;
+    }
+    ul li:hover ul li{
+        display: block;
+    }
+    
+  .iteam1 a{
+    text-decoration: none;
+    font-size: 20px;
+    border: 2px solid aliceblue;
+    
+    background-color: aliceblue;
+    border-radius: 3px;
+
+  }
+  .iteam1 a ul li
+  {
+    text-align: center;
+    float: inline-start;
+    
+  }
+ 
+  .home{
+    color: white;
+    text-align: center;
+    width: 1500px;
+    font-size: 20px;
+    position: absolute;
+    top: 155px;
+    background-color: rgb(18,97,160);
+    height: 38px;
+    border-radius: 15px;
+  }
+  .home1{
+    display: flex;
+     font-size: 25px;
+    position: absolute;
+    top: 190px;
+    color: rgb(74,74,74);
+    margin-left: 500px;
+    
+  }
+
+  .home2{
+    display: flex;
+    position: absolute;
+    top: 245px;
+    /* margin-left: 580px; */
+    color: blue;
+  }
+  .home2 h1{
+    font-size: 25px;
+  }
+  .home3 input{
+    display: flex;
+    position: absolute;
+    top: 340px;
+    background-color: aqua;
+    width: 98%;
+    height: 30px;
+    color: white;
+  }
+  .navbar li a:hover{
+              background-color:green;
+
+            }
+
+.Details{
+background-color: rgb(18,97,160);
+}
+
+section {
+  margin-top: 20px;
+}
+
+ul.next {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+ul.next li.iteam1 {
+  display: inline-block;
+  margin-right: 10px;
+}
+
+ul.next li.iteam1 a {
+  text-decoration: none;
+  color: #333;
+  padding: 5px 10px;
+  border: 1px solid #333;
+  border-radius: 3px;
+}
+
+ul.next li.iteam1 a:hover {
+  background-color: #333;
+  color: #fff;
+}
+
+ul.next ul {
+  display: none;
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  z-index: 999;
+}
+
+ul.next li.iteam1:hover ul {
+  display: block;
+  position: absolute;
+  background-color: greenyellow;
+  border: 1px solid #333;
+  border-radius: 3px;
+}
+
+ul.next li.iteam1:hover ul li.hii {
+  padding: 5px 10px;
+}
+
+ul.next li.iteam1:hover ul li.hii:hover {
+  background-color: #333;
+  color: #fff;
+}
+.co{
+    font-size: 32px;
+    color: rgb(255,215,0);
+    margin-left: 650px;
+    margin-top: 5px;
+}
+.co li{
+    display: block;
+}
+.co1{
+    font-size: 28px;
+    color: rgb(27,79,114);
+    margin-left: 430px;
+    margin-top: 5px;
+}
+.co1 li{
+    display: block;
+}
+.co2{
+    font-size: 28px;
+    color: rgb(255,215,0);
+    margin-left: 570px;
+    margin-top: 5px;
+}
+.co2 li{
+    display: block;
+}
+.co3{
+    font-size: 22px;
+    color:  rgb(27,79,114) ;
+    margin-left: 50px;
+    margin-top: 5px;
+}
+.co3 li{
+    display: block;
+}
+.co4{
+  margin-left: 50px;
+  margin-top: 7px;
+  color: rgb(255,215,0);
+  font-size: 22px;
+}
+.co4 li{
+  display: block;
+}
+.co5{
+  margin-left: 50px;
+  margin-top: 7px;
+  color: rgb(27,79,114) ;
+  font-size: 22px;
+}
+.co5 li{
+  display: block;
+}
+.co6{
+  margin-left: 50px;
+  margin-top: 2px;
+  color: rgb(27,79,114) ;
+  font-size: 22px;
+}
+.co6 li{
+  display: block;
+}
+.co7{
+  margin-left: 50px;
+  margin-top: 7px;
+  color: rgb(255,215,0);
+  font-size: 22px;
+}
+.co7 li{
+  display: block;
+}
+.co8{
+  margin-left: 50px;
+  margin-top: 2px;
+  color: rgb(27,79,114) ;
+  font-size: 22px;
+}
+.co8 li{
+  display: block;
+}
+.co9{
+  margin-left: 50px;
+  margin-top: 7px;
+  color: rgb(255,215,0);
+  font-size: 22px;
+}
+.co9 li{
+  display: block;
+}
+.c10{
+  border: 2px solid whitesmoke;
+   height: 170px;
+  width: 570px;
+  margin-left: 380px;
+  margin-top: 15px;
+  border-radius: 49px;
+  background-color: rgb(240,248,255);
+}
+.c14{
+  position: absolute;
+  top: 780px;
+  font-size: 22px;
+  margin-left: 410px;
+  color: gold;
+}
+.c11 li{
+display: block;
+margin-left: 133px;
+background-color: lightgoldenrodyellow;
+width: 270px;
+border-radius: 10px;
+border: 2px solid whitesmoke;
+}
+.c12 li{
+display: block;
+margin-top: 15px;
+border: 2px solid whitesmoke;
+background-color: aqua;
+border-radius: 10px;
+height: 38px;
+text-align: center;
+}
+.c13 li{
+display: block;
+margin-top: 15px;
+border: 2px solid whitesmoke;
+background-color: aqua;
+border-radius: 10px;
+height: 38px;
+text-align: center;
+}
+</style>
+<body>
+    <div class="samal">
+        <div id="nav">
+            <div id="left">
+              <img src="./image/1653130938790.jpg" alt="" id="img1" />
+            </div>
+            <div id="mid">
+              <ul class="navbar">
+                <li class="iteam"><a href="praticeproject.html">&#9962 HOME</a></li>
+                <li class="iteam"><a href="praticeprojectcourse.html"> &#9997 COURSES</a></li>
+                <li class="iteam"><a href="#">&#128218 BATCHES</a></li>
+                <li class="iteam"><a href="praticeprojectCorporates.html">&#128203  CORPORATES</a></li>
+                <li class="iteam"><a href="praticeprojectcontact.html">&#9742 CONTACT</a></li>
+                <li class="iteam"><a href="#">&#9742 PLACEMENT</a></li>
+                <li class="iteam"><a href="praticeprojectenquiry.html"> &#128172 ENQUIRY</a></li>
+                
+              </ul>
+            </div>
+            <div id="right">
+              <ul class="rightclass">
+                <li class="rightiteam"><a href="#"> &#9742 9776918714</a></li>
+                <li class="rightiteam"><a href="#">&#9742 9776918714</a></li>
+                <li class="rightiteam"><a href="#">&#9742 9776918714</a></li>
+              </ul>
+              
+
+            </div>
+          </div>
+    
+    
+    </div>
+        
+    
+    <section>
+        <ul class="next">
+            <li class="iteam1"><a href="#">GLOBAL</a>
+             <!-- <button></button> -->
+             <ul>
+              <li class="hii">United Kingdom</li>
+              <li class="hii">United States</li>
+             
+          </ul>
+        </li>
+            <li class="iteam1"><a href="#"> ONLINE</a>
+              <!-- <button></button> -->
+                <ul>
+                    <li class="hii">Online</li>
+                    
+                </ul>
+            </li>
+            <li class="iteam1"><a href="#">ODISHA</a>
+                <ul>
+                    <li class="hii">Bhubaneswar</li>
+                    <li class="hii">ROURKELA</li>
+                    <li class="hii">PURI</li>
+                    <li class="hii">BERHUMPUR</li>
+                </ul></li>
+            <li class="iteam1"><a href="#">BIHAR</a>
+                <ul>
+                    <li class="hii">PATNA</li>
+                  
+                    <li class="hii">BAGALPUR</li>
+                </ul></li>
+            <li class="iteam1"><a href="#">UP</a>
+                <ul>
+                    <li class="hii">Lucknow</li>
+                    <li class="hii">Mirzapur</li>
+                    <li class="hii">Saharanpur</li>
+                    <li class="hii">Muzaffarnagar</li>
+                </ul>
+            </li>
+            <li class="iteam1"><a href="#">JHARKHAND</a>
+                <ul>
+                    <li class="hii">Bokaro</li>
+                    <li class="hii">Ranchi</li>
+                    <li class="hii">TATA</li>
+                </ul>
+            </li>
+            <li class="iteam1"><a href="#">KARNATAKA</a>
+                <ul>
+                    <li class="hii">Bengaluru - Basavanagudi</li>
+                    <li class="hii">Bengaluru - Old Airport Road</li>
+                    <li class="hii">Mysore</li>
+                    <li class="hii">Bengaluru - Rajajinagar</li>
+                    <li class="hii">Bengaluru - BTM Layout</li>
+                </ul>
+            </li>
+            <li class="iteam1"><a href="#">DELHI</a>
+                <ul>
+                    <li class="hii">NEW DELHI</li>
+                    
+                </ul>
+            </li>
+            <li class="iteam1"><a href="#">GUJARAT</a>
+                <ul>
+                    <li class="hii">Ahmedabad</li>
+                    
+                </ul>
+            </li>
+            <li class="iteam1"><a href="#">KERELA</a>
+                <ul>
+                    <li class="hii">Kochi - Kerala
+                    </li>
+                    
+                </ul>
+            </li>
+            <li class="iteam1"><a href="#">WEST BENGAL</a>
+                <ul>
+                    <li class="hii">Kochi - Kerala
+                    </li>
+                    
+                </ul>
+            </li>
+        </ul>
+        <div class="co">
+            <li>
+                Corporates
+            </li>
+        </div>
+        <div class="co1">
+            <li>
+                We Provide Best-In-Class Trained Students.
+            </li>
+        </div>
+      
+      <div class="co2">
+          <li>
+    &#9921 Want to hire our Students.
+          </li>
+      </div>
+      <div>
+        <hr>
+      </div>
+      <div class="co3">
+        <li>
+          QSpiders, JSpiders and PySpiders are among the largest software testing and development training organizations across the globe with branches in North America, Europe and the Asia Pacific. They are "finishing schools" that upskill job aspirants across streams to match industry standards.
+
+          QSpiders, JSpiders and PySpiders also have incubation centres across India. These incubation centres prepare students in the final semester of their graduate studies, so that they are deployable as soon as they graduate.
+          
+          QSpiders, JSpiders and PySpiders hold the record of supplying the highest number of industry-ready technical resources.We can supply over 3500 technical resources at any time to meet the industry's demand.
+        </li>
+    </div>
+    <div class="co4">
+      <li>
+        Our Hiring Solution
+      </li>
+  </div>
+  <div class="co5">
+    <li>
+      Zero Cost Hiring is our proven solution which has history of placing 4,50,000 plus graduates across industry.
+
+Our Zero Cost Hiring save major portion of hiring cost.
+    </li>
+</div>
+<div class="co6">
+  <li>
+    Readily available graduates, @ QSpiders & JSpiders and PySpiders will save the 90%Cost of sourcing candidates/ resumes,
+
+Our Dedicated Delivery Team and Customized Delivery Model will save 70% of the Cost involved in Recruiting
+
+Also Our Pre-assesment on Aptitude, Communication and Technicalwill save Time spent by a recruiter and hiring managers in the initial level of candidate interaction and evaluation, Time spent by a recruiter in coordination with candidates/ teams, follow-ups, scheduling, invigilation and other operational stuff.
+  </li>
+</div>
+<div class="co7">
+  <li>
+    Our Syllabus (Customized Syllabus as per industry), Our Resource Quality, Our Additional Training on Domain and Project Specific content will save 90%.
+  </li>
+</div>
+<div class="co8">
+  <li>
+    Cost of Training
+    <br>
+   Training turns out to be one of the costliest investments a company can make. In a report from Training magazine in 2007, companies spent an average of over $1,200 annually per employee.
+  </li>
+</div>
+<div class="co9">
+  <li>
+    Our Dedicated infrastructure will save 80% of the cost involved in facility and admin.
+  </li>
+</div>
+<div class="c10">
+ 
+</div>
+<div class="c14">
+  <div class="c11">
+    <li>Call/Email us to know more.</li>
+  </div>
+  <div class="c12">
+    <li>&#128100 Sagar &#128222 +919742490958  &#128195 sagar@qspiders.com</li>
+  </div>
+  <div class="c13">
+    <li>&#128100 Kishore  &#128222 +919880585503  &#128195 kishore@qspiders.com</li>
+  </div>
+</div>
+
+</body>
+</html>
